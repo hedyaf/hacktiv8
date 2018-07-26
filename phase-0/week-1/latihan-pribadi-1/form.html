@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Buat Account Baru!</h1>
+
+    <form action="welcome.html" method="post">
+      <legend><strong>Sign Up Form</strong></legend>
+
+      <p>
+        <label for="firstName">First name:</label> <br>
+        <input id="firstName" type="text" name="firstName">
+      </p>
+
+      <p>
+        <label for="lastName">Last name:</label> <br>
+        <input id="lastName" type="text" name="lastName">
+      </p>
+
+      <label>Gender:</label> <br>
+      <input type="radio" name="gender" value="male" checked>Male <br>
+      <input type="radio" name="gender" value="female">Female <br>
+      <input type="radio" name="gender" value="other">Other
+      <!-- Kalau di Hacktiv8, pake label (for & id) untuk define namanya. -->
+
+      <p>
+      <label>Nationality:</label><br>
+      <select name="nationality">
+        <option value="indonesia">Indonesian</option>
+        <option value="singaporean">Singaporean</option>
+        <option value="malaysian" selected>Malaysian</option>
+        <option value="australian">Australian</option>
+      </select>
+      </p>
+
+      <p>
+        <label for="">Language Spoken:</label> <br>
+        <input type="checkbox" name="language" value="bahasa"> Bahasa Indonesia <br>
+        <input type="checkbox" name="language" value="english"> English <br>
+        <input type="checkbox" name="language" value="other"> Other
+      </p>
+
+      <p>
+      <label>Bio:</label><br>
+      <textarea name="bio" rows="8" cols="30"></textarea>
+      </p>
+
+      <input type="submit" name="" value="Sign Up asli">
+
+      <button type="button" name="button">Sign Up pake button</button>
+
+
+
+    </form>
+
+
+
+  </body>
+</html>
