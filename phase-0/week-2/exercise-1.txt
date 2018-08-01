@@ -1,0 +1,63 @@
+1. NEWTON SECOND LAW
+	Pseudocode:
+		STORE "mass" with 600.
+		STORE  "acceleration" with 2
+		CALCULATE "mass" times "acceleration"
+		SET "force" value with calculation result
+		DISPLAY "force"
+
+
+
+2. TAHUN KABISAT:
+	Algorithm:
+		1. Set a year
+		2. Check if year is divisible by 4 but not divisible by 100, then display as "it is a leap year"
+		3. Check if year is divisible by 400, then display as "it is a leap year"
+		4. Other than that, display as "it is NOT a leap year"
+
+	Pseudocode:
+		STORE "year" with any value
+		IF "year" modulo 4 equal 0 AND "year" modulo 100 not equal 0
+			DISPLAY "It is a leap year"
+		ELSE IF "year" modulo 400 equal 0
+			DISPLAY "It is a leap year"
+		ELSE
+			DISPLAY "It is NOT a leap year"
+		ENDIF
+
+
+
+3. LAUNDRY DAY:
+	Algorithm:
+		1. Washing machine is empty
+		2. Put 1 laundry to washing machine
+		3. If laundry is less than 20, repeat step 2
+		4. If laundry equal 20, turn on washing machine
+
+	Pseudocode:
+		STORE "totalLaundry" to 0
+		WHILE "totalLaundry" less than 20
+			ADD 1 to "totalLaundry"
+			DISPLAY "totalLaundry"
+			IF "totalLaundry" less than 20,
+				DISPLAY "Washing machine is still off"
+			ELSE IF "totalLaundry" is 20,
+				DISPLAY "Washing machine will be turned on"
+			ENDIF
+		ENDWHILE
+
+
+
+4. PERIKSA KUKU:
+	Algorithm:
+		1. Check all 40 student's nail
+		2. If nail is long, then punish the student
+		3. If nail is short, then praise the student
+
+	Pseudocode:
+		CHECK every 40 student's nail
+		IF nail is long
+			DISPLAY "punish student!"
+		ELSE
+			DISPLAY "praise student!"
+		ENDIF
