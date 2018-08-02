@@ -1,6 +1,14 @@
 function balikKata(kata) {
-  return kata.split("").reverse().join("");
+  result = "";
+  for (i=kata.length-1; i >= 0; i--) {
+    result += kata[i];
+  } return result;
 }
+
+// OPTION 2:
+// function balikKata(kata) {
+//   return kata.split("").reverse().join("");
+// }
 
 // TEST CASES
 console.log(balikKata('Hello World and Coders')); // sredoC dna dlroW olleH
