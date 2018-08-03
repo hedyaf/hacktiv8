@@ -39,8 +39,8 @@ for (i=1; i<=100; i++) {
 }
 
 console.log("LOOPING KE-2: tambah 2");
-for (i=1; i<=100; i++) {
-  result = i + 2;
+for (i=1; i<=100; i=i+2) {
+  result = i;
   if (result%3 === 0) {
     console.log(result + " kelipatan 3");
   } else {
@@ -49,8 +49,8 @@ for (i=1; i<=100; i++) {
 }
 
 console.log("LOOPING KE-3: tambah 5");
-for (i=1; i<=100; i++) {
-  result = i + 5;
+for (i=1; i<=100; i=i+5) {
+  result = i;
   if (result%6 === 0) {
     console.log(result + " kelipatan 6");
   } else {
@@ -59,8 +59,8 @@ for (i=1; i<=100; i++) {
 }
 
 console.log("LOOPING KE-4: tambah 9");
-for (i=1; i<=100; i++) {
-  result = i + 9;
+for (i=1; i<=100; i=i+9) {
+  result = i;
   if (result%10 === 0) {
     console.log(result + " kelipatan 10");
   } else {

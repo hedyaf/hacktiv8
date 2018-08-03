@@ -32,14 +32,12 @@ for (i=0; i<rows2; i++) {
 // 3. Menyusun Barisan Tangga Bintang Dengan Nested Looping:
 // OPTION 1:
 var rows3 = 5;
-
+var result = "";
 for (i=1; i<=rows3; i++) {
-  result = "*";
-  for (i=0; i<rows3; i++) {
-    console.log(result);
-    result += "*";
-  }
+  result += "*";
+  console.log(result);
 }
+
 
 // OPTION 2:
 // var rows3b = 5;

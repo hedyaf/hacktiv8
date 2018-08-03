@@ -50,14 +50,16 @@
 
 4. PERIKSA KUKU:
 	Algorithm:
-		1. Check all 40 student's nail
-		2. If nail is long, then punish the student
-		3. If nail is short, then praise the student
+		1. Check student's nail
+			2. If nail is long, then punish the student
+			3. If nail is short, then praise the student
+		4. Repeat step number 1 for all other students (repeat 40 times)
 
 	Pseudocode:
-		CHECK every 40 student's nail
-		IF nail is long
-			DISPLAY "punish student!"
-		ELSE
-			DISPLAY "praise student!"
-		ENDIF
+		FOR every 40 student's nail
+			IF nail is long
+				DISPLAY "punish student!"
+			ELSE
+				DISPLAY "praise student!"
+			ENDIF
+		ENDFOR
