@@ -12,14 +12,14 @@
 	Algorithm:
 		1. Set a year
 		2. Check if year is divisible by 4 but not divisible by 100, then display as "it is a leap year"
-		3. Check if year is divisible by 400, then display as "it is a leap year"
+		3. Check if year is divisible by 4, 100, and 400, then display as "it is a leap year"
 		4. Other than that, display as "it is NOT a leap year"
 
 	Pseudocode:
 		STORE "year" with any value
 		IF "year" modulo 4 equal 0 AND "year" modulo 100 not equal 0
 			DISPLAY "It is a leap year"
-		ELSE IF "year" modulo 400 equal 0
+		ELSE IF "year" modulo 4 equal 0 AND "year" modulo 100 equal 0 AND "year" modulo 400 equal 0
 			DISPLAY "It is a leap year"
 		ELSE
 			DISPLAY "It is NOT a leap year"
