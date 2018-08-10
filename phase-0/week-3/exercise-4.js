@@ -3,7 +3,8 @@ function dataHandling2(input) {
   input.splice(1,5, "Roman Alamsyah Elsharawy", "Provinsi Bandar Lampung", "21/05/1989", "Pria", "SMA Internasional Metro");
   console.log(input);
   // split
-  var hasilSplit = input[3].split("/");
+  var hasilSplit1 = input[3].split("/");
+  var hasilSplit2 = input[3].split("/");
   var bulan = input[3].split("/")[1];
   switch (bulan) {
     case '01': { bulan = "Januari"; break; }
@@ -20,12 +21,17 @@ function dataHandling2(input) {
     case '12': { bulan = "Desember"; break; }
     default: { "bulan salah"; }
   } console.log(bulan);
-  // sort ?? gimana??
-  console.log(hasilSplit.sort(function(value1, value2) { return value1 < value2 }));
-  // join, tp hasilnya terlanjur ke sorted.. gmn donk?
-  console.log(hasilSplit.join("-"));
-}
 
+  // sort
+  var hasilSort = hasilSplit1.sort(function(a, b) { return b-a});
+  console.log(hasilSort);
+
+  // join
+  console.log(hasilSplit2.join("-"));
+
+  // 15 karakter
+  console.log(input[1].slice(0,15));
+}
 
 
 var input = ["0001", "Roman Alamsyah", "Bandar Lampung", "21/05/1989", "Membaca"];
