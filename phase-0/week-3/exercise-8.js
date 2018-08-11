@@ -4,7 +4,6 @@ function pasanganTerbesar(num) {
     hasil.push(Number(String(num).slice(i, i+2)));
   }
   return Math.max(...hasil);
-
 }
 
 // TEST CASES
